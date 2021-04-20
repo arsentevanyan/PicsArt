@@ -2,18 +2,19 @@ public class Test {
     public static void main(String[] args) {
 
         Human human1 = new Human();
-        human1.firstName = "Hayk";
-        human1.lastName = "Babayan";
-        human1.IsArmenian = true;
-        human1.gender = 'm';
-        human1.year = 2000;
+        human1.setFirstName("Hayk");
+        human1.setLastName("Babayan");
+        human1.setArmenian(true);
+        human1.setGender('m');
+        human1.setYear(2000);
+
 
         Human human2 = new Human();
-        human2.firstName = "Ani";
-        human2.lastName = "Grigoryan";
-        human2.IsArmenian = true;
-        human2.gender = 'f';
-        human2.year = 2005;
+        human2.setFirstName("Poxos");
+        human2.setLastName("Chobanyan");
+        human2.setArmenian(false);
+        human2.setGender('m');
+        human2.setYear(1997);
 
 
         int x = human1.sum(4, 9);
